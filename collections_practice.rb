@@ -34,7 +34,11 @@ def find_a(letter)
 end
 
 def sum_array(num)
-  
+  i = 0
+  num.each do |integer|
+    i += integer
+  end
+  i
 end
 
 def add_s(word)
