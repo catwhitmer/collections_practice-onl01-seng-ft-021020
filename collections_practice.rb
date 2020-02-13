@@ -24,6 +24,7 @@ end
 def kesha_maker(string)
   string.each do |character|
     character[2] = "$"
+  end
 end
 
 def find_a(letter)
