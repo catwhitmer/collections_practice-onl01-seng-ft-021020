@@ -34,7 +34,7 @@ def find_a(letter)
 end
 
 def sum_array(array)
-
+  array.inject { |sum, n| sum + n } 
 end
 
 def add_s(word)
