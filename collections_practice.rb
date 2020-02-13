@@ -22,7 +22,8 @@ def reverse_array(num)
 end
 
 def kesha_maker(string)
-  
+  string.each do |character|
+    character[2] = "$"
 end
 
 def find_a(letter)
