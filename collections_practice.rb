@@ -41,7 +41,7 @@ def add_s(word)
   
 end
 
-(5..10).inject { |sum, n| sum + n }   
+  
 
 
   i = 0
