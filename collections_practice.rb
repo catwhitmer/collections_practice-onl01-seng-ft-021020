@@ -43,9 +43,3 @@ end
 
   
 
-
-  i = 0
-  array.each do |integer|
-    i += integer
-  end
-  i
