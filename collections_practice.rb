@@ -21,6 +21,10 @@ def reverse_array(num)
   num.reverse
 end
 
+def kesha_maker()
+  
+end
+
 def find_a(letter)
   
 end
