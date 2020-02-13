@@ -34,11 +34,7 @@ def find_a(letter)
 end
 
 def sum_array(array)
-  i = 0
-  array.each do |integer|
-    i += integer
-  end
-  i
+
 end
 
 def add_s(word)
@@ -46,3 +42,5 @@ def add_s(word)
 end
 
 (5..10).inject { |sum, n| sum + n }   
+
+
