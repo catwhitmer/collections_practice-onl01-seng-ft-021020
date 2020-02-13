@@ -44,3 +44,8 @@ end
 (5..10).inject { |sum, n| sum + n }   
 
 
+  i = 0
+  array.each do |integer|
+    i += integer
+  end
+  i
