@@ -33,9 +33,9 @@ def find_a(letter)
   end
 end
 
-def sum_array(num)
+def sum_array(array)
   i = 0
-  num.each do |integer|
+  array.each do |integer|
     i += integer
   end
   i
